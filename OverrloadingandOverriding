@@ -1,0 +1,177 @@
+//Overriding
+//using static methode
+//  class Animal{
+
+//     public static void sound(){
+//         System.out.println("enter the animal sound");
+//     }
+// }
+// class Dog extends Animal{
+//     public static void sound(){
+//         System.out.println("Bow Bow sound");
+//     }
+// }
+// class Cat extends Animal{
+//     public static void sound(){
+//         System.out.println("Moew Moew");
+//     }
+// }
+// public class Loki{
+
+//     public static void main(String[] args) {
+//         Animal.sound();
+//         Dog.sound();
+//         Cat.sound();
+//     }
+    
+// } 
+
+//using non static methode
+
+/**
+ * Loki
+ */
+// class Animal{
+
+//     public void sound(){
+//         System.out.println("enter the animal sound");
+//     }
+// }
+// class Dog extends Animal{
+//     public void sound(){
+//         System.out.println("Bow Bow sound");
+//     }
+// }
+// class Cat extends Animal{
+//     public  void sound(){
+//         System.out.println("Moew Moew");
+//     }
+// }
+// public class Loki{
+
+//     public static void main(String[] args) {
+//         Animal aa = new Animal();
+//         Animal bb = new Dog();
+//         Animal cc = new Cat();
+
+//         aa.sound();
+//         bb.sound();
+//         cc.sound();
+//     }
+    
+// } 
+
+/**
+ * Loki
+ */
+//super class methode overriding
+// class Animal{
+
+//     public void sound(){
+//         System.out.println("enter the animal sound");
+//     }
+// }
+// class Dog extends Animal{
+//     public void sound(){
+//         super.sound();
+//         System.out.println("Bow Bow sound");
+//     }
+// }
+
+// public class Loki{
+
+//     public static void main(String[] args) {
+
+//         Animal bb = new Dog();
+//         bb.sound();
+//     }
+    
+// }
+
+
+
+//Overloading
+
+// public class OverloadingExample {
+
+//     public void print(int number) {
+//         System.out.println("Printing int: " + number);
+//     }
+
+//     public void print(String text) {
+//         System.out.println("Printing String: " + text);
+//     }
+
+//     public static void main(String[] args) {
+//         OverloadingExample example = new OverloadingExample();
+//         example.print(123);       // Calls print(int number)
+//         example.print("Hello");   // Calls print(String text)
+//     }
+// }
+
+/*
+ * public class OverloadingExample {
+
+    public void display(int a) {
+        System.out.println("Single parameter: " + a);
+    }
+
+    public void display(int a, int b) {
+        System.out.println("Two parameters: " + a + ", " + b);
+    }
+
+    public static void main(String[] args) {
+        OverloadingExample example = new OverloadingExample();
+        example.display(10);         // Calls display(int a)
+        example.display(10, 20);     // Calls display(int a, int b)
+    }
+}
+
+ */
+
+ /*
+  * public class OverloadingExample {
+
+    public void calculate(int a, double b) {
+        System.out.println("int and double: " + (a + b));
+    }
+
+    public void calculate(double a, int b) {
+        System.out.println("double and int: " + (a + b));
+    }
+
+    public static void main(String[] args) {
+        OverloadingExample example = new OverloadingExample();
+        example.calculate(10, 20.5);     // Calls calculate(int a, double b)
+        example.calculate(20.5, 10);     // Calls calculate(double a, int b)
+    }
+}
+
+  */
+//   static 
+
+/*
+ * // static variable is shared value to all
+class man{
+    static int num;
+    public  void show(){
+    
+        System.out.println(num);
+    }
+}
+public class Loki {
+
+    public static void main(String[] args) {
+        man.num = 10;
+        man mm = new man();
+        man.num = 20;
+        man mn = new man();
+        mn.show();
+        mm.show();
+    }
+    
+}
+ */
+
+                            
+
