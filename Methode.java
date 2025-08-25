@@ -248,10 +248,7 @@
 
 //         System.out.println("Enter the number:");
 //         int n = sc.nextInt();
-
 //         int reverse = Loki(n);
-       
-
 //         sc.close();
 //     }
 // }

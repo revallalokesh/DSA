@@ -3,48 +3,33 @@ import java.util.ArrayList;
 import java.util.*;
 
 public class Arraylist {
-
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
+        Scanner sc = new Scanner(System.in);\
         ArrayList<Integer> list = new ArrayList<>(5);
-
         for (int i = 0; i < 5; i++) {
-
             list.add(sc.nextInt());
-
         }
         // System.out.println(list);
-
         // or below methode
         for (int i = 0; i < list.size(); i++) {
-
             System.out.print(list.get(i) + " ");
-
         }
         sc.close();
     }
-
 }
 
 /* 
  * import java.util.ArrayList;
 
 public class Loki {
-
     public static void main(String[] args) {
-        
         // Scanner sc = new Scanner(System.in);
-
         ArrayList<Integer> list = new ArrayList<>(5);
-
         list.add(20);
         list.add(30);
         list.add(40);
         list.add(50);
         list.add(60);
-      
-
         System.out.println(list.get(1));
         System.out.println(list);
 
@@ -161,20 +146,13 @@ public class Loki {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         int[] arr = new int[5];
-
         for(int i=0;i<arr.length;i++){
-
             arr[i] = sc.nextInt();
-
-        }
-        
+        }    
        Reverse(arr);
-
        System.out.println(Arrays.toString(arr));
-        sc.close();
-        
+        sc.close();  
     }
 
     public static void Reverse(int[] arr){
@@ -330,9 +308,6 @@ public class Main {
             }
         }
         System.out.println(Arrays.toString(arr));
-
-
-
     }
 }
 */

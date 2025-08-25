@@ -2,7 +2,7 @@
 
 public class Animal {
 
-    public static int Pradeppage = 20;
+    public static int Pradeepage = 20;
     public int Lokiage = 21;
     public static void Pradeep(){
         System.out.println("Pradeep");
@@ -14,7 +14,7 @@ public class Animal {
        Pradeep();
        Animal obj = new Animal();
        obj.Loki();
-       System.out.println(Pradeppage);
+       System.out.println(Pradeepage);
        System.out.println(obj.Lokiage);
        
     }

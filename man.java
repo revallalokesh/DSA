@@ -1,22 +1,15 @@
 import java.util.*;
-
-public class man{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner (System.in);
-        System.out.print("Enter the number of rows: ");
-        int n = sc.nextInt(); 
-        for(int i=0;i<n;i++){
-            for(int j=0;j<=2 * i;j++){
-                System.out.print(" ");
-            }
-            for(int k=1;k<=2 * (n-i)-1;k++){
-                System.out.print(k+" ");
-            }
-            
-            System.out.println();
-        }
-        
-        sc.close();
+class man{
+   public static void main(String[] args){
+    String gg = "aeba";
+    System.out.println(fun(gg));
+   }
+   public static boolean fun(String gg){
+    for(int i=0;i<gg.length()/2;i++){
+      if(gg.charAt(i)!=gg.charAt(gg.length()-i-1)){
+        return false;
+      }
     }
-
+    return true;
+   }
 }
